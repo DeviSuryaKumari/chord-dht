@@ -8,8 +8,8 @@ public class Chord {
     private int numOfNodes;
     private List<Integer> nodes;
     private Map<Integer, Integer> dataStore;
-    private static final int NUM_OF_POINTS = 10;
-    private static final int NUM_OF_QUERIES = 10;
+    private static final int NUM_OF_POINTS = 1000;
+    private static final int NUM_OF_QUERIES = 100000;
 
     public Chord(int numOfNodes) {
         this.numOfNodes = numOfNodes;
